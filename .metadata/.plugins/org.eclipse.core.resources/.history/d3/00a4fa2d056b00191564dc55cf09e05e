@@ -1,0 +1,12 @@
+package controllers;
+
+
+
+public class RemoteAssets {
+	
+	public static String base = "";
+
+    public static String versioned(String url) {
+        return url + sm;
+    }
+}

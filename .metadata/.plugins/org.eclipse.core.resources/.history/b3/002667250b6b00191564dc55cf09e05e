@@ -1,0 +1,16 @@
+package controllers;
+
+
+/**
+ * 
+ * @author 13979
+ *
+ */
+public class RemoteAssets {
+	
+	public static String base = "/assets/ace/";
+
+    public static String versioned(String url) {
+        return base + url;
+    }
+}
